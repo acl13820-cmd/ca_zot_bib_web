@@ -21,7 +21,8 @@ This program generates an HTML link for Zotero libraries and collections selecte
 
 
         git clone https://github.com/acl13820-cmd/ca_zot_bib_web.git "/Users/username/Documents/IMPACT-Zotero"
-        cd ca_zot_bib_web
+        cd "~thePath/IMPACT-Zotero"
+
 
 
 ## 3. Create a Python environment 
