@@ -1,0 +1,354 @@
+DEBUG:httpcore.connection:connect_tcp.started host='api.zotero.org' port=443 local_address=None timeout=30 socket_options=None
+DEBUG:httpcore.connection:connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x10511eba0>
+DEBUG:httpcore.connection:start_tls.started ssl_context=<ssl.SSLContext object at 0x1050fb020> server_hostname='api.zotero.org' timeout=30
+DEBUG:httpcore.connection:start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x1050d2710>
+DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_headers.complete
+DEBUG:httpcore.http11:send_request_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_body.complete
+DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Tue, 30 Sep 2025 17:39:06 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'676'), (b'Connection', b'keep-alive'), (b'Server', b'Apache/2.4.64 ()'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Zotero-API-Version', b'3'), (b'Zotero-Schema-Version', b'33'), (b'Total-Results', b'3'), (b'Link', b'<https://api.zotero.org/groups/6217053/items?limit=1&start=1>; rel="next", <https://api.zotero.org/groups/6217053/items?limit=1&start=2>; rel="last", <https://www.zotero.org/groups/6217053/items>; rel="alternate"'), (b'Last-Modified-Version', b'5'), (b'Vary', b'Accept-Encoding'), (b'Content-Encoding', b'gzip')])
+INFO:httpx:HTTP Request: GET https://api.zotero.org/groups/6217053/items?limit=1&format=json&locale=en-US "HTTP/1.1 200 OK"
+DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_body.complete
+DEBUG:httpcore.http11:response_closed.started
+DEBUG:httpcore.http11:response_closed.complete
+DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_headers.complete
+DEBUG:httpcore.http11:send_request_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_body.complete
+DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Tue, 30 Sep 2025 17:39:06 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'330'), (b'Connection', b'keep-alive'), (b'Server', b'Apache/2.4.64 ()'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Zotero-API-Version', b'3'), (b'Zotero-Schema-Version', b'33'), (b'Last-Modified-Version', b'2'), (b'Vary', b'Accept-Encoding'), (b'Content-Encoding', b'gzip')])
+INFO:httpx:HTTP Request: GET https://api.zotero.org/groups/6217053/collections/A67VDG8R?format=json&limit=100&locale=en-US "HTTP/1.1 200 OK"
+DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_body.complete
+DEBUG:httpcore.http11:response_closed.started
+DEBUG:httpcore.http11:response_closed.complete
+DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_headers.complete
+DEBUG:httpcore.http11:send_request_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_body.complete
+DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Tue, 30 Sep 2025 17:39:06 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'2'), (b'Connection', b'keep-alive'), (b'Server', b'Apache/2.4.64 ()'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Zotero-API-Version', b'3'), (b'Zotero-Schema-Version', b'33'), (b'Total-Results', b'0'), (b'Link', b'<https://www.zotero.org/groups/6217053/collections/A67VDG8R/collections>; rel="alternate"'), (b'Last-Modified-Version', b'5')])
+INFO:httpx:HTTP Request: GET https://api.zotero.org/groups/6217053/collections/A67VDG8R/collections?format=json&limit=100&locale=en-US "HTTP/1.1 200 OK"
+DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_body.complete
+DEBUG:httpcore.http11:response_closed.started
+DEBUG:httpcore.http11:response_closed.complete
+DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_headers.complete
+DEBUG:httpcore.http11:send_request_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_body.complete
+DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Tue, 30 Sep 2025 17:39:06 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'2417'), (b'Connection', b'keep-alive'), (b'Server', b'Apache/2.4.64 ()'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Zotero-API-Version', b'3'), (b'Zotero-Schema-Version', b'33'), (b'Total-Results', b'3'), (b'Link', b'<https://www.zotero.org/groups/6217053/collections/A67VDG8R/items>; rel="alternate"'), (b'Last-Modified-Version', b'5'), (b'Vary', b'Accept-Encoding'), (b'Content-Encoding', b'gzip')])
+INFO:httpx:HTTP Request: GET https://api.zotero.org/groups/6217053/collections/A67VDG8R/items?order=date&sort=desc&format=json&limit=100&locale=en-US "HTTP/1.1 200 OK"
+DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_body.complete
+DEBUG:httpcore.http11:response_closed.started
+DEBUG:httpcore.http11:response_closed.complete
+DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_headers.complete
+DEBUG:httpcore.http11:send_request_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_body.complete
+DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Tue, 30 Sep 2025 17:39:06 GMT'), (b'Content-Type', b'application/atom+xml'), (b'Content-Length', b'2403'), (b'Connection', b'keep-alive'), (b'Server', b'Apache/2.4.64 ()'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Zotero-API-Version', b'3'), (b'Zotero-Schema-Version', b'33'), (b'Total-Results', b'3'), (b'Link', b'<https://www.zotero.org/groups/6217053/collections/A67VDG8R/items>; rel="alternate"'), (b'Last-Modified-Version', b'5'), (b'Vary', b'Accept-Encoding'), (b'Content-Encoding', b'gzip')])
+INFO:httpx:HTTP Request: GET https://api.zotero.org/groups/6217053/collections/A67VDG8R/items?order=date&sort=desc&content=bibtex&style=&format=atom&limit=100&locale=en-US "HTTP/1.1 200 OK"
+DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_body.complete
+DEBUG:httpcore.http11:response_closed.started
+DEBUG:httpcore.http11:response_closed.complete
+DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_headers.complete
+DEBUG:httpcore.http11:send_request_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_body.complete
+DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Tue, 30 Sep 2025 17:39:08 GMT'), (b'Content-Type', b'application/atom+xml'), (b'Content-Length', b'1320'), (b'Connection', b'keep-alive'), (b'Server', b'Apache/2.4.64 ()'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Zotero-API-Version', b'3'), (b'Zotero-Schema-Version', b'33'), (b'Total-Results', b'3'), (b'Link', b'<https://www.zotero.org/groups/6217053/collections/A67VDG8R/items>; rel="alternate"'), (b'Last-Modified-Version', b'5'), (b'Vary', b'Accept-Encoding'), (b'Content-Encoding', b'gzip')])
+INFO:httpx:HTTP Request: GET https://api.zotero.org/groups/6217053/collections/A67VDG8R/items?order=date&sort=desc&content=bib&style=apa&format=atom&limit=100&locale=en-US "HTTP/1.1 200 OK"
+DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_body.complete
+DEBUG:httpcore.http11:response_closed.started
+DEBUG:httpcore.http11:response_closed.complete
+DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_headers.complete
+DEBUG:httpcore.http11:send_request_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_body.complete
+DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Tue, 30 Sep 2025 17:39:08 GMT'), (b'Content-Type', b'application/atom+xml'), (b'Content-Length', b'2277'), (b'Connection', b'keep-alive'), (b'Server', b'Apache/2.4.64 ()'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Zotero-API-Version', b'3'), (b'Zotero-Schema-Version', b'33'), (b'Total-Results', b'3'), (b'Link', b'<https://www.zotero.org/groups/6217053/collections/A67VDG8R/items>; rel="alternate"'), (b'Last-Modified-Version', b'5'), (b'Vary', b'Accept-Encoding'), (b'Content-Encoding', b'gzip')])
+INFO:httpx:HTTP Request: GET https://api.zotero.org/groups/6217053/collections/A67VDG8R/items?order=date&sort=desc&content=ris&style=&format=atom&limit=100&locale=en-US "HTTP/1.1 200 OK"
+DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_body.complete
+DEBUG:httpcore.http11:response_closed.started
+DEBUG:httpcore.http11:response_closed.complete
+DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_headers.complete
+DEBUG:httpcore.http11:send_request_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_body.complete
+DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Tue, 30 Sep 2025 17:39:09 GMT'), (b'Content-Type', b'application/atom+xml'), (b'Content-Length', b'1522'), (b'Connection', b'keep-alive'), (b'Server', b'Apache/2.4.64 ()'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Zotero-API-Version', b'3'), (b'Zotero-Schema-Version', b'33'), (b'Total-Results', b'3'), (b'Link', b'<https://www.zotero.org/groups/6217053/collections/A67VDG8R/items>; rel="alternate"'), (b'Last-Modified-Version', b'5'), (b'Vary', b'Accept-Encoding'), (b'Content-Encoding', b'gzip')])
+INFO:httpx:HTTP Request: GET https://api.zotero.org/groups/6217053/collections/A67VDG8R/items?order=date&sort=desc&content=coins&format=atom&limit=100&locale=en-US "HTTP/1.1 200 OK"
+DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_body.complete
+DEBUG:httpcore.http11:response_closed.started
+DEBUG:httpcore.http11:response_closed.complete
+DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_headers.complete
+DEBUG:httpcore.http11:send_request_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_body.complete
+DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Tue, 30 Sep 2025 17:39:09 GMT'), (b'Content-Type', b'application/atom+xml'), (b'Content-Length', b'1352'), (b'Connection', b'keep-alive'), (b'Server', b'Apache/2.4.64 ()'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Zotero-API-Version', b'3'), (b'Zotero-Schema-Version', b'33'), (b'Total-Results', b'3'), (b'Link', b'<https://www.zotero.org/groups/6217053/collections/A67VDG8R/items>; rel="alternate"'), (b'Last-Modified-Version', b'5'), (b'Vary', b'Accept-Encoding'), (b'Content-Encoding', b'gzip')])
+INFO:httpx:HTTP Request: GET https://api.zotero.org/groups/6217053/collections/A67VDG8R/items?order=date&sort=desc&content=wikipedia&format=atom&limit=100&locale=en-US "HTTP/1.1 200 OK"
+DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_body.complete
+DEBUG:httpcore.http11:response_closed.started
+DEBUG:httpcore.http11:response_closed.complete
+DEBUG:httpcore.connection:close.started
+DEBUG:httpcore.connection:close.complete
+DEBUG:httpcore.connection:connect_tcp.started host='api.zotero.org' port=443 local_address=None timeout=30 socket_options=None
+DEBUG:httpcore.connection:connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x1033c6ba0>
+DEBUG:httpcore.connection:start_tls.started ssl_context=<ssl.SSLContext object at 0x1033a3020> server_hostname='api.zotero.org' timeout=30
+DEBUG:httpcore.connection:start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x10337a710>
+DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_headers.complete
+DEBUG:httpcore.http11:send_request_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_body.complete
+DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Tue, 30 Sep 2025 17:39:43 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'676'), (b'Connection', b'keep-alive'), (b'Server', b'Apache/2.4.64 ()'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Zotero-API-Version', b'3'), (b'Zotero-Schema-Version', b'33'), (b'Total-Results', b'3'), (b'Link', b'<https://api.zotero.org/groups/6217053/items?limit=1&start=1>; rel="next", <https://api.zotero.org/groups/6217053/items?limit=1&start=2>; rel="last", <https://www.zotero.org/groups/6217053/items>; rel="alternate"'), (b'Last-Modified-Version', b'5'), (b'Vary', b'Accept-Encoding'), (b'Content-Encoding', b'gzip')])
+INFO:httpx:HTTP Request: GET https://api.zotero.org/groups/6217053/items?limit=1&format=json&locale=en-US "HTTP/1.1 200 OK"
+DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_body.complete
+DEBUG:httpcore.http11:response_closed.started
+DEBUG:httpcore.http11:response_closed.complete
+DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_headers.complete
+DEBUG:httpcore.http11:send_request_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_body.complete
+DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Tue, 30 Sep 2025 17:39:43 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'330'), (b'Connection', b'keep-alive'), (b'Server', b'Apache/2.4.64 ()'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Zotero-API-Version', b'3'), (b'Zotero-Schema-Version', b'33'), (b'Last-Modified-Version', b'2'), (b'Vary', b'Accept-Encoding'), (b'Content-Encoding', b'gzip')])
+INFO:httpx:HTTP Request: GET https://api.zotero.org/groups/6217053/collections/A67VDG8R?format=json&limit=100&locale=en-US "HTTP/1.1 200 OK"
+DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_body.complete
+DEBUG:httpcore.http11:response_closed.started
+DEBUG:httpcore.http11:response_closed.complete
+DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_headers.complete
+DEBUG:httpcore.http11:send_request_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_body.complete
+DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Tue, 30 Sep 2025 17:39:43 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'2'), (b'Connection', b'keep-alive'), (b'Server', b'Apache/2.4.64 ()'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Zotero-API-Version', b'3'), (b'Zotero-Schema-Version', b'33'), (b'Total-Results', b'0'), (b'Link', b'<https://www.zotero.org/groups/6217053/collections/A67VDG8R/collections>; rel="alternate"'), (b'Last-Modified-Version', b'5')])
+INFO:httpx:HTTP Request: GET https://api.zotero.org/groups/6217053/collections/A67VDG8R/collections?format=json&limit=100&locale=en-US "HTTP/1.1 200 OK"
+DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_body.complete
+DEBUG:httpcore.http11:response_closed.started
+DEBUG:httpcore.http11:response_closed.complete
+DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_headers.complete
+DEBUG:httpcore.http11:send_request_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_body.complete
+DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Tue, 30 Sep 2025 17:39:43 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'2417'), (b'Connection', b'keep-alive'), (b'Server', b'Apache/2.4.64 ()'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Zotero-API-Version', b'3'), (b'Zotero-Schema-Version', b'33'), (b'Total-Results', b'3'), (b'Link', b'<https://www.zotero.org/groups/6217053/collections/A67VDG8R/items>; rel="alternate"'), (b'Last-Modified-Version', b'5'), (b'Vary', b'Accept-Encoding'), (b'Content-Encoding', b'gzip')])
+INFO:httpx:HTTP Request: GET https://api.zotero.org/groups/6217053/collections/A67VDG8R/items?order=date&sort=desc&format=json&limit=100&locale=en-US "HTTP/1.1 200 OK"
+DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_body.complete
+DEBUG:httpcore.http11:response_closed.started
+DEBUG:httpcore.http11:response_closed.complete
+DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_headers.complete
+DEBUG:httpcore.http11:send_request_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_body.complete
+DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Tue, 30 Sep 2025 17:39:43 GMT'), (b'Content-Type', b'application/atom+xml'), (b'Content-Length', b'2404'), (b'Connection', b'keep-alive'), (b'Server', b'Apache/2.4.64 ()'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Zotero-API-Version', b'3'), (b'Zotero-Schema-Version', b'33'), (b'Total-Results', b'3'), (b'Link', b'<https://www.zotero.org/groups/6217053/collections/A67VDG8R/items>; rel="alternate"'), (b'Last-Modified-Version', b'5'), (b'Vary', b'Accept-Encoding'), (b'Content-Encoding', b'gzip')])
+INFO:httpx:HTTP Request: GET https://api.zotero.org/groups/6217053/collections/A67VDG8R/items?order=date&sort=desc&content=bibtex&style=&format=atom&limit=100&locale=en-US "HTTP/1.1 200 OK"
+DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_body.complete
+DEBUG:httpcore.http11:response_closed.started
+DEBUG:httpcore.http11:response_closed.complete
+DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_headers.complete
+DEBUG:httpcore.http11:send_request_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_body.complete
+DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Tue, 30 Sep 2025 17:39:43 GMT'), (b'Content-Type', b'application/atom+xml'), (b'Content-Length', b'1320'), (b'Connection', b'keep-alive'), (b'Server', b'Apache/2.4.64 ()'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Zotero-API-Version', b'3'), (b'Zotero-Schema-Version', b'33'), (b'Total-Results', b'3'), (b'Link', b'<https://www.zotero.org/groups/6217053/collections/A67VDG8R/items>; rel="alternate"'), (b'Last-Modified-Version', b'5'), (b'Vary', b'Accept-Encoding'), (b'Content-Encoding', b'gzip')])
+INFO:httpx:HTTP Request: GET https://api.zotero.org/groups/6217053/collections/A67VDG8R/items?order=date&sort=desc&content=bib&style=apa&format=atom&limit=100&locale=en-US "HTTP/1.1 200 OK"
+DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_body.complete
+DEBUG:httpcore.http11:response_closed.started
+DEBUG:httpcore.http11:response_closed.complete
+DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_headers.complete
+DEBUG:httpcore.http11:send_request_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_body.complete
+DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Tue, 30 Sep 2025 17:39:44 GMT'), (b'Content-Type', b'application/atom+xml'), (b'Content-Length', b'2277'), (b'Connection', b'keep-alive'), (b'Server', b'Apache/2.4.64 ()'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Zotero-API-Version', b'3'), (b'Zotero-Schema-Version', b'33'), (b'Total-Results', b'3'), (b'Link', b'<https://www.zotero.org/groups/6217053/collections/A67VDG8R/items>; rel="alternate"'), (b'Last-Modified-Version', b'5'), (b'Vary', b'Accept-Encoding'), (b'Content-Encoding', b'gzip')])
+INFO:httpx:HTTP Request: GET https://api.zotero.org/groups/6217053/collections/A67VDG8R/items?order=date&sort=desc&content=ris&style=&format=atom&limit=100&locale=en-US "HTTP/1.1 200 OK"
+DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_body.complete
+DEBUG:httpcore.http11:response_closed.started
+DEBUG:httpcore.http11:response_closed.complete
+DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_headers.complete
+DEBUG:httpcore.http11:send_request_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_body.complete
+DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Tue, 30 Sep 2025 17:39:44 GMT'), (b'Content-Type', b'application/atom+xml'), (b'Content-Length', b'1522'), (b'Connection', b'keep-alive'), (b'Server', b'Apache/2.4.64 ()'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Zotero-API-Version', b'3'), (b'Zotero-Schema-Version', b'33'), (b'Total-Results', b'3'), (b'Link', b'<https://www.zotero.org/groups/6217053/collections/A67VDG8R/items>; rel="alternate"'), (b'Last-Modified-Version', b'5'), (b'Vary', b'Accept-Encoding'), (b'Content-Encoding', b'gzip')])
+INFO:httpx:HTTP Request: GET https://api.zotero.org/groups/6217053/collections/A67VDG8R/items?order=date&sort=desc&content=coins&format=atom&limit=100&locale=en-US "HTTP/1.1 200 OK"
+DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_body.complete
+DEBUG:httpcore.http11:response_closed.started
+DEBUG:httpcore.http11:response_closed.complete
+DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_headers.complete
+DEBUG:httpcore.http11:send_request_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_body.complete
+DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Tue, 30 Sep 2025 17:39:44 GMT'), (b'Content-Type', b'application/atom+xml'), (b'Content-Length', b'1352'), (b'Connection', b'keep-alive'), (b'Server', b'Apache/2.4.64 ()'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Zotero-API-Version', b'3'), (b'Zotero-Schema-Version', b'33'), (b'Total-Results', b'3'), (b'Link', b'<https://www.zotero.org/groups/6217053/collections/A67VDG8R/items>; rel="alternate"'), (b'Last-Modified-Version', b'5'), (b'Vary', b'Accept-Encoding'), (b'Content-Encoding', b'gzip')])
+INFO:httpx:HTTP Request: GET https://api.zotero.org/groups/6217053/collections/A67VDG8R/items?order=date&sort=desc&content=wikipedia&format=atom&limit=100&locale=en-US "HTTP/1.1 200 OK"
+DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_body.complete
+DEBUG:httpcore.http11:response_closed.started
+DEBUG:httpcore.http11:response_closed.complete
+DEBUG:httpcore.connection:close.started
+DEBUG:httpcore.connection:close.complete
+DEBUG:httpcore.connection:connect_tcp.started host='api.zotero.org' port=443 local_address=None timeout=30 socket_options=None
+DEBUG:httpcore.connection:connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x105362ba0>
+DEBUG:httpcore.connection:start_tls.started ssl_context=<ssl.SSLContext object at 0x10533f020> server_hostname='api.zotero.org' timeout=30
+DEBUG:httpcore.connection:start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x105316710>
+DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_headers.complete
+DEBUG:httpcore.http11:send_request_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_body.complete
+DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Tue, 30 Sep 2025 17:43:56 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'676'), (b'Connection', b'keep-alive'), (b'Server', b'Apache/2.4.64 ()'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Zotero-API-Version', b'3'), (b'Zotero-Schema-Version', b'33'), (b'Total-Results', b'3'), (b'Link', b'<https://api.zotero.org/groups/6217053/items?limit=1&start=1>; rel="next", <https://api.zotero.org/groups/6217053/items?limit=1&start=2>; rel="last", <https://www.zotero.org/groups/6217053/items>; rel="alternate"'), (b'Last-Modified-Version', b'5'), (b'Vary', b'Accept-Encoding'), (b'Content-Encoding', b'gzip')])
+INFO:httpx:HTTP Request: GET https://api.zotero.org/groups/6217053/items?limit=1&format=json&locale=en-US "HTTP/1.1 200 OK"
+DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_body.complete
+DEBUG:httpcore.http11:response_closed.started
+DEBUG:httpcore.http11:response_closed.complete
+DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_headers.complete
+DEBUG:httpcore.http11:send_request_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_body.complete
+DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Tue, 30 Sep 2025 17:43:57 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'330'), (b'Connection', b'keep-alive'), (b'Server', b'Apache/2.4.64 ()'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Zotero-API-Version', b'3'), (b'Zotero-Schema-Version', b'33'), (b'Last-Modified-Version', b'2'), (b'Vary', b'Accept-Encoding'), (b'Content-Encoding', b'gzip')])
+INFO:httpx:HTTP Request: GET https://api.zotero.org/groups/6217053/collections/A67VDG8R?format=json&limit=100&locale=en-US "HTTP/1.1 200 OK"
+DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_body.complete
+DEBUG:httpcore.http11:response_closed.started
+DEBUG:httpcore.http11:response_closed.complete
+DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_headers.complete
+DEBUG:httpcore.http11:send_request_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_body.complete
+DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Tue, 30 Sep 2025 17:43:57 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'2'), (b'Connection', b'keep-alive'), (b'Server', b'Apache/2.4.64 ()'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Zotero-API-Version', b'3'), (b'Zotero-Schema-Version', b'33'), (b'Total-Results', b'0'), (b'Link', b'<https://www.zotero.org/groups/6217053/collections/A67VDG8R/collections>; rel="alternate"'), (b'Last-Modified-Version', b'5')])
+INFO:httpx:HTTP Request: GET https://api.zotero.org/groups/6217053/collections/A67VDG8R/collections?format=json&limit=100&locale=en-US "HTTP/1.1 200 OK"
+DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_body.complete
+DEBUG:httpcore.http11:response_closed.started
+DEBUG:httpcore.http11:response_closed.complete
+DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_headers.complete
+DEBUG:httpcore.http11:send_request_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_body.complete
+DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Tue, 30 Sep 2025 17:43:57 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'2417'), (b'Connection', b'keep-alive'), (b'Server', b'Apache/2.4.64 ()'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Zotero-API-Version', b'3'), (b'Zotero-Schema-Version', b'33'), (b'Total-Results', b'3'), (b'Link', b'<https://www.zotero.org/groups/6217053/collections/A67VDG8R/items>; rel="alternate"'), (b'Last-Modified-Version', b'5'), (b'Vary', b'Accept-Encoding'), (b'Content-Encoding', b'gzip')])
+INFO:httpx:HTTP Request: GET https://api.zotero.org/groups/6217053/collections/A67VDG8R/items?order=date&sort=desc&format=json&limit=100&locale=en-US "HTTP/1.1 200 OK"
+DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_body.complete
+DEBUG:httpcore.http11:response_closed.started
+DEBUG:httpcore.http11:response_closed.complete
+DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_headers.complete
+DEBUG:httpcore.http11:send_request_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_body.complete
+DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Tue, 30 Sep 2025 17:43:57 GMT'), (b'Content-Type', b'application/atom+xml'), (b'Content-Length', b'2404'), (b'Connection', b'keep-alive'), (b'Server', b'Apache/2.4.64 ()'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Zotero-API-Version', b'3'), (b'Zotero-Schema-Version', b'33'), (b'Total-Results', b'3'), (b'Link', b'<https://www.zotero.org/groups/6217053/collections/A67VDG8R/items>; rel="alternate"'), (b'Last-Modified-Version', b'5'), (b'Vary', b'Accept-Encoding'), (b'Content-Encoding', b'gzip')])
+INFO:httpx:HTTP Request: GET https://api.zotero.org/groups/6217053/collections/A67VDG8R/items?order=date&sort=desc&content=bibtex&style=&format=atom&limit=100&locale=en-US "HTTP/1.1 200 OK"
+DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_body.complete
+DEBUG:httpcore.http11:response_closed.started
+DEBUG:httpcore.http11:response_closed.complete
+DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_headers.complete
+DEBUG:httpcore.http11:send_request_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_body.complete
+DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Tue, 30 Sep 2025 17:43:57 GMT'), (b'Content-Type', b'application/atom+xml'), (b'Content-Length', b'1320'), (b'Connection', b'keep-alive'), (b'Server', b'Apache/2.4.64 ()'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Zotero-API-Version', b'3'), (b'Zotero-Schema-Version', b'33'), (b'Total-Results', b'3'), (b'Link', b'<https://www.zotero.org/groups/6217053/collections/A67VDG8R/items>; rel="alternate"'), (b'Last-Modified-Version', b'5'), (b'Vary', b'Accept-Encoding'), (b'Content-Encoding', b'gzip')])
+INFO:httpx:HTTP Request: GET https://api.zotero.org/groups/6217053/collections/A67VDG8R/items?order=date&sort=desc&content=bib&style=apa&format=atom&limit=100&locale=en-US "HTTP/1.1 200 OK"
+DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_body.complete
+DEBUG:httpcore.http11:response_closed.started
+DEBUG:httpcore.http11:response_closed.complete
+DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_headers.complete
+DEBUG:httpcore.http11:send_request_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_body.complete
+DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Tue, 30 Sep 2025 17:43:57 GMT'), (b'Content-Type', b'application/atom+xml'), (b'Content-Length', b'2277'), (b'Connection', b'keep-alive'), (b'Server', b'Apache/2.4.64 ()'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Zotero-API-Version', b'3'), (b'Zotero-Schema-Version', b'33'), (b'Total-Results', b'3'), (b'Link', b'<https://www.zotero.org/groups/6217053/collections/A67VDG8R/items>; rel="alternate"'), (b'Last-Modified-Version', b'5'), (b'Vary', b'Accept-Encoding'), (b'Content-Encoding', b'gzip')])
+INFO:httpx:HTTP Request: GET https://api.zotero.org/groups/6217053/collections/A67VDG8R/items?order=date&sort=desc&content=ris&style=&format=atom&limit=100&locale=en-US "HTTP/1.1 200 OK"
+DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_body.complete
+DEBUG:httpcore.http11:response_closed.started
+DEBUG:httpcore.http11:response_closed.complete
+DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_headers.complete
+DEBUG:httpcore.http11:send_request_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_body.complete
+DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Tue, 30 Sep 2025 17:43:58 GMT'), (b'Content-Type', b'application/atom+xml'), (b'Content-Length', b'1522'), (b'Connection', b'keep-alive'), (b'Server', b'Apache/2.4.64 ()'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Zotero-API-Version', b'3'), (b'Zotero-Schema-Version', b'33'), (b'Total-Results', b'3'), (b'Link', b'<https://www.zotero.org/groups/6217053/collections/A67VDG8R/items>; rel="alternate"'), (b'Last-Modified-Version', b'5'), (b'Vary', b'Accept-Encoding'), (b'Content-Encoding', b'gzip')])
+INFO:httpx:HTTP Request: GET https://api.zotero.org/groups/6217053/collections/A67VDG8R/items?order=date&sort=desc&content=coins&format=atom&limit=100&locale=en-US "HTTP/1.1 200 OK"
+DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_body.complete
+DEBUG:httpcore.http11:response_closed.started
+DEBUG:httpcore.http11:response_closed.complete
+DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_headers.complete
+DEBUG:httpcore.http11:send_request_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_body.complete
+DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Tue, 30 Sep 2025 17:43:58 GMT'), (b'Content-Type', b'application/atom+xml'), (b'Content-Length', b'1352'), (b'Connection', b'keep-alive'), (b'Server', b'Apache/2.4.64 ()'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Zotero-API-Version', b'3'), (b'Zotero-Schema-Version', b'33'), (b'Total-Results', b'3'), (b'Link', b'<https://www.zotero.org/groups/6217053/collections/A67VDG8R/items>; rel="alternate"'), (b'Last-Modified-Version', b'5'), (b'Vary', b'Accept-Encoding'), (b'Content-Encoding', b'gzip')])
+INFO:httpx:HTTP Request: GET https://api.zotero.org/groups/6217053/collections/A67VDG8R/items?order=date&sort=desc&content=wikipedia&format=atom&limit=100&locale=en-US "HTTP/1.1 200 OK"
+DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_body.complete
+DEBUG:httpcore.http11:response_closed.started
+DEBUG:httpcore.http11:response_closed.complete
+DEBUG:httpcore.connection:close.started
+DEBUG:httpcore.connection:close.complete
+DEBUG:httpcore.connection:connect_tcp.started host='api.zotero.org' port=443 local_address=None timeout=30 socket_options=None
+DEBUG:httpcore.connection:connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x10758aba0>
+DEBUG:httpcore.connection:start_tls.started ssl_context=<ssl.SSLContext object at 0x10755f020> server_hostname='api.zotero.org' timeout=30
+DEBUG:httpcore.connection:start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x10753e710>
+DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_headers.complete
+DEBUG:httpcore.http11:send_request_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_body.complete
+DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Tue, 30 Sep 2025 17:44:24 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'676'), (b'Connection', b'keep-alive'), (b'Server', b'Apache/2.4.64 ()'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Zotero-API-Version', b'3'), (b'Zotero-Schema-Version', b'33'), (b'Total-Results', b'3'), (b'Link', b'<https://api.zotero.org/groups/6217053/items?limit=1&start=1>; rel="next", <https://api.zotero.org/groups/6217053/items?limit=1&start=2>; rel="last", <https://www.zotero.org/groups/6217053/items>; rel="alternate"'), (b'Last-Modified-Version', b'5'), (b'Vary', b'Accept-Encoding'), (b'Content-Encoding', b'gzip')])
+INFO:httpx:HTTP Request: GET https://api.zotero.org/groups/6217053/items?limit=1&format=json&locale=en-US "HTTP/1.1 200 OK"
+DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_body.complete
+DEBUG:httpcore.http11:response_closed.started
+DEBUG:httpcore.http11:response_closed.complete
+DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_headers.complete
+DEBUG:httpcore.http11:send_request_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_body.complete
+DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Tue, 30 Sep 2025 17:44:24 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'330'), (b'Connection', b'keep-alive'), (b'Server', b'Apache/2.4.64 ()'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Zotero-API-Version', b'3'), (b'Zotero-Schema-Version', b'33'), (b'Last-Modified-Version', b'2'), (b'Vary', b'Accept-Encoding'), (b'Content-Encoding', b'gzip')])
+INFO:httpx:HTTP Request: GET https://api.zotero.org/groups/6217053/collections/A67VDG8R?format=json&limit=100&locale=en-US "HTTP/1.1 200 OK"
+DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_body.complete
+DEBUG:httpcore.http11:response_closed.started
+DEBUG:httpcore.http11:response_closed.complete
+DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_headers.complete
+DEBUG:httpcore.http11:send_request_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_body.complete
+DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Tue, 30 Sep 2025 17:44:24 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'2'), (b'Connection', b'keep-alive'), (b'Server', b'Apache/2.4.64 ()'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Zotero-API-Version', b'3'), (b'Zotero-Schema-Version', b'33'), (b'Total-Results', b'0'), (b'Link', b'<https://www.zotero.org/groups/6217053/collections/A67VDG8R/collections>; rel="alternate"'), (b'Last-Modified-Version', b'5')])
+INFO:httpx:HTTP Request: GET https://api.zotero.org/groups/6217053/collections/A67VDG8R/collections?format=json&limit=100&locale=en-US "HTTP/1.1 200 OK"
+DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_body.complete
+DEBUG:httpcore.http11:response_closed.started
+DEBUG:httpcore.http11:response_closed.complete
+DEBUG:httpcore.connection:close.started
+DEBUG:httpcore.connection:close.complete
