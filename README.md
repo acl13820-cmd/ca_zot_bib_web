@@ -46,7 +46,7 @@ This program generates an HTML link for Zotero libraries and collections selecte
 
 
 ## 5. Enter Zotero settings (Zotero Web required) 
- Open settings.py in a text editor and fill in:
+ Open **settings.py** in a text editor and fill in:
 - Your user ID or group ID (without quotation marks)
 - Your Zotero API key (generated in step 1)
 - Your collection key
