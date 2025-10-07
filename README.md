@@ -60,6 +60,8 @@ https://www.zotero.org/groups/6217053/impact_lab_psych/collections/A67VDG8R
 
 ## 6. Generate your bibliography HTML
 
+## When making changes to the Zotero library (particularly when removing articles), make sure you empty the trash, then refresh the html webpage. 
+
 
     python zot.py --settings settings.py
 
