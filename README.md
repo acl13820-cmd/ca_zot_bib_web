@@ -21,7 +21,7 @@ This program generates an HTML link for Zotero libraries and collections selecte
 
 
         git clone https://github.com/acl13820-cmd/ca_zot_bib_web.git "/Users/username/Documents/IMPACT-Zotero"
-        cd "~thePath/IMPACT-Zotero"
+        cd "(the path you selected)"
 
 
 
